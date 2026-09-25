@@ -33,10 +33,10 @@ if (colheresMistura <= 1) {
 }
 
 const resumo = `
-colheres de arroz que você aguenta: ${quantidadeArroz}
-colheres de feijão que você aguenta: ${quantidadeFeijao}
-colheres de farinha que você aguenta: ${quantidadeFarinha}
-colheres de mistura que você aguenta: ${quantidadeMistura}
+colheres de arroz que você aguenta: ${colheresArroz}-> ${quantidadeArroz}
+colheres de feijão que você aguenta: ${colheresFeijao}-> ${quantidadeFeijao}
+colheres de farinha que você aguenta: ${colheresFarinha}->  ${quantidadeFarinha}
+colheres de mistura que você aguenta: ${colheresMistura}-> ${quantidadeMistura}
 `
 
-console.log(resumo)
+console.log(resumo)  
